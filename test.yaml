@@ -1,0 +1,8 @@
+details:
+    type: checklist
+    name: 'Test Checklist Import'
+    description: 'This checklist is used to test the YAML import function'
+tasks:
+    - { name: 'Select file', description: 'Select the file from your desktop', order: 1 }
+    - { name: 'Double Click', description: 'Double click the file so we trigger the upload', order: 2 }
+    - { name: 'Check Import', description: 'Did the file import correctly?', order: 3 }
