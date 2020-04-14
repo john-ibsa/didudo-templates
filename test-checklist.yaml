@@ -1,0 +1,20 @@
+details:
+    type: checklist
+    name: 'Test Checklist Import'
+    description: 'This checklist is used to test the YAML import function.'
+tasks:
+    Item1:
+        name: Item 1
+        description: Test Description
+    Item2:
+        name: Item 2
+        description: Test Description
+    Item3:
+        name: Item 3
+        description: Test Description
+    Item4:
+        name: Item 4
+        description: Test Description
+    Item5:
+        name: Item 5
+        description: Test Description
