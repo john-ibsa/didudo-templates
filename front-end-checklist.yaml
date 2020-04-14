@@ -1,0 +1,20 @@
+details:
+    type: checklist
+    name: 'Front-End Checklist'
+    description: 'Making sure every project gets the attention it deserves'
+tasks:
+    Item1:
+        name: Favicon
+        description: 'The site contains a favicon'
+    Item2:
+        name: 'Minified CSS and JS'
+        description: 'Ensure the build minifies the css and js files'
+    Item3:
+        name: 'Cleanup comments'
+        description: 'Remove unnecessary code before release'
+    Item4:
+        name: 'Image file sizes'
+        description: 'Ensure that the images aren''t too large in file size'
+    Item5:
+        name: 'Chrome audits / Lighthouse test'
+        description: 'Use chrome audit to check sites performance, accessibility, etc'

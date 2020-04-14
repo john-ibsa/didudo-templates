@@ -1,0 +1,93 @@
+details:
+    type: workflow
+    name: 'Single Page Website'
+    description: 'Complete process for developing a single page website, includes kickoff, UX, design, development and deployment'
+items:
+    42e423d8-efd2-42bf-ae98-4bb0358ea0da:
+        name: 'Project Warmup'
+        description: 'We need to prep the project'
+        children:
+            b8498eb4-0631-468c-86e8-2dba80495c4e:
+                name: 'Create the Slack Channel'
+                description: 'Everyone needs to communicate so create a Slack channel for this project'
+            b2c4bb10-0899-413d-93a9-e0fdc5ee5a48:
+                name: 'Create the GitLab project'
+                description: 'Code needs to go somewhere'
+            088d60e1-60a9-42f9-a1ba-0f5a1d56f5f1:
+                name: 'Create the Zeplin project'
+                description: 'Design needs to go somewhere'
+            f79292ae-6704-4887-971f-5c73d8b083cb:
+                name: 'Book in the kick-off meeting with the client'
+                description: 'We need to get an understanding of this project'
+            0ee180a0-11fb-4080-893f-abf3003da8b3:
+                name: 'Write the Technical Specification'
+                description: 'This outlines the key technical details of this project'
+            9aa4f1b5-a53f-41f6-8eda-1a12789bf3fe:
+                name: 'Write the design brief'
+                description: 'This outlines the key design details of this project'
+    1d4f696f-22d3-444c-8df3-b6220e19b7c3:
+        name: 'UX Flow'
+        description: 'The steps involved in creating great UX'
+        children:
+            dfd13646-2994-442f-870c-de441626bb59:
+                name: 'Generate UX documents'
+                description: 'Based on the project requirements create a set of UX documents'
+            9ebf41a9-cc04-4304-a039-bfa828b791ac:
+                name: 'UX internal sign-off'
+                description: 'Before we show the client the head of UX must approve the documents'
+            be77f784-0407-4ad5-85a9-89e96e897b60:
+                name: 'UX Client sign-off'
+                description: 'Send the UX documents to the client and confim approval'
+    94ea19c9-cba6-4c47-8867-aa557c4fe072:
+        name: 'UX / Design hand over'
+        description: 'Complete a hand over meeting between the UX and Design teams'
+    5f49e89e-f127-46b7-b86c-3e83857386dc:
+        name: 'Design Flow'
+        description: 'All the steps in creating great design'
+        children:
+            6eb029f9-64e8-4222-a479-9df84856c30f:
+                name: 'Create Design documents'
+                description: 'Create a set of great design files based upon the clients brief'
+            762ed985-09b9-4b17-a31d-0fbef2dc218f:
+                name: 'Design internal sign-off'
+                description: 'The head of design must approve the designs before being sent to the client'
+            6c75fd64-12dc-441c-bbf8-21785dedf96a:
+                name: 'Design client sign-off'
+                description: 'The client has signed off the designs'
+    7af2c56f-b4b3-4bdb-98df-4eae6b5deeae:
+        name: 'Design / Development hand over'
+        description: 'Schedule a meeting with the design and development teams'
+    4cfb133f-d701-4015-8efd-6a638ae10dcf:
+        name: 'Development Flow'
+        description: 'Work the development team needs to complete'
+        children:
+            8f492e0f-e71a-40ed-9581-11fc6db31060:
+                name: 'Generate work tickets based upon designs'
+                description: 'Create a set of tickets to work on that will complete the designs'
+            39bbd19b-28db-4098-8f7d-08117e8fa8aa:
+                name: 'Complete development work'
+                description: 'Complete the development tickets and prepare the site for internal review'
+            82f31a6b-f512-4a82-b996-6ffa71a2f9af:
+                name: 'Internal testing'
+                description: 'Internal development team review the code created and create any issue tickets'
+            46b2bc71-12be-4c27-8683-661cdd2521a9:
+                name: 'Design review'
+                description: 'Have a meeting with the design team to gather design feedback, create issues if needed'
+            4e0d77eb-c2fd-45b0-a6ca-6a8520404f8c:
+                name: 'Client UAT prep'
+                description: 'Prepare the site for client UAT. This might be setting up the staging server and deploying the code.'
+            21564a2c-23c9-42e0-86da-3a5220112a2f:
+                name: 'Client UAT'
+                description: 'Send the site to the client for review and feedback.'
+    1266c9f4-ace6-4ebd-ab77-ef966d42f10a:
+        name: 'Prepare Live hosting'
+        description: 'Based on the technical specifications setup the live site'
+    6df3e7f0-ffe5-4c5c-9279-2ae81bd8a9d3:
+        name: 'Deploy Live site'
+        description: 'Complete the live site release'
+    3162e633-ca64-4261-adc7-8806ed33da2f:
+        name: 'Book in project or sprint roundup meeting'
+        description: 'Once the project or sprint has completed book in a review call with the client.'
+    e6ac1cbd-2087-4892-96a8-e9c713e2c97f:
+        name: 'Invoice project'
+        description: 'Lets ensure we all get paid!'
